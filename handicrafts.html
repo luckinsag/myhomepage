@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工芸品 - Xue Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Xue Art Studio</a>
+            <div class="nav-links">
+                <a href="japanese-art.html">日本画</a>
+                <a href="handicrafts.html" class="active">工芸品</a>
+                <a href="about.html">プロフィール</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="gallery-page">
+            <h1>工芸品ギャラリー</h1>
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?w=1200" 
+                         alt="工芸作品1">
+                    <div class="caption">現代工芸アート</div>
+                </div>
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1574182245530-967d9b3831af?w=1200" 
+                         alt="工芸作品2">
+                    <div class="caption">実験的素材アート</div>
+                </div>
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1578301978018-3199f323d8e9?w=1200" 
+                         alt="工芸作品3">
+                    <div class="caption">ミクストメディア作品</div>
+                </div>
+                <a class="prev" onclick="changeSlide(-1, 0)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1, 0)">&#10095;</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 

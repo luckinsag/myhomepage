@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本画 - Xue Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Xue Art Studio</a>
+            <div class="nav-links">
+                <a href="japanese-art.html" class="active">日本画</a>
+                <a href="handicrafts.html">工芸品</a>
+                <a href="about.html">プロフィール</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="gallery-page">
+            <h1>日本画作品集</h1>
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=1200" 
+                         alt="抽象画1">
+                    <div class="caption">現代抽象水墨画</div>
+                </div>
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1576769267415-9642010aa962?w=1200" 
+                         alt="抽象画2">
+                    <div class="caption">水墨画の世界</div>
+                </div>
+                <div class="slides fade">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200" 
+                         alt="抽象画3">
+                    <div class="caption">現代東洋美学</div>
+                </div>
+                <a class="prev" onclick="changeSlide(-1, 0)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1, 0)">&#10095;</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
