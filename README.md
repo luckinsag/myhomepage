@@ -14,15 +14,15 @@
   - 网站概述
   - 作品分类快速访问
   
-- **日本画照片** (`japanese-art.html`)
-  - 传统日本画作品展示
+- **日本画空间** (`japanese-art.html`)
+  - 日本画作品展示
   - 幻灯片形式浏览
   
-- **插画作品廊** (`handicrafts.html`)
+- **插画空间** (`handicrafts.html`)
   - 插画作品展示
   - 幻灯片形式浏览
   
-- **关于我们** (`about.html`)
+- **关于我** (`about.html`)
   - 艺术家简历
   - 艺术理念
   - 联系方式
@@ -64,7 +64,7 @@ cd xue-art-studio
 本项目采用 MIT 许可证
 
 ## 联系方式
-- 邮箱：xuechenxin@gmail.com
+- 邮箱：xuechenxin.work@gmail.com
 - 微信：XueArtStudio
 - Instagram：@luckinsag
 
