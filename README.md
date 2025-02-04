@@ -1,4 +1,4 @@
-# 雪艺术工作室 - 艺术作品集网站
+# 薛晨欣的艺术工作室 - 艺术作品集网站
 
 ## 概述
 本网站是一个展示日本传统艺术与现代艺术融合作品的作品集网站。通过简约优雅的设计，致力于最大程度地展现艺术作品的魅力。
@@ -14,12 +14,12 @@
   - 网站概述
   - 作品分类快速访问
   
-- **日本画廊** (`japanese-art.html`)
+- **日本画照片** (`japanese-art.html`)
   - 传统日本画作品展示
   - 幻灯片形式浏览
   
-- **工艺品廊** (`handicrafts.html`)
-  - 现代工艺作品展示
+- **插画作品廊** (`handicrafts.html`)
+  - 插画作品展示
   - 幻灯片形式浏览
   
 - **关于我们** (`about.html`)
@@ -64,9 +64,9 @@ cd xue-art-studio
 本项目采用 MIT 许可证
 
 ## 联系方式
-- 邮箱：contact@xue-art.com
+- 邮箱：xuechenxin@gmail.com
 - 微信：XueArtStudio
-- Instagram：@xue_art_studio
+- Instagram：@luckinsag
 
 ## 致谢
 感谢所有为本项目做出贡献的开发者和艺术家。# myhomepage
